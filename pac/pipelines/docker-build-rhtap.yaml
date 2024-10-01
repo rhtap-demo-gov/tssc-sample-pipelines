@@ -118,6 +118,8 @@ spec:
       params:
         - name: IMAGE
           value: $(params.output-image)
+        - name: TLSVERIFY
+          value: "false"
         - name: DOCKERFILE
           value: $(params.dockerfile)
         - name: CONTEXT
